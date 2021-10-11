@@ -1,0 +1,24 @@
+<div class="container-fluid row h-100 align-items-center listText">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>SL No.</th>
+                <th>Product ID</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let p of products; let i = index">
+                <td>{{i+1}}</td>
+                <td> {{p.prodId}}</td>
+                <td> <a routerLink="/product-details/{{p.prodId}}">{{p.prodName}}</a></td>
+                <td>{{p.price}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="btn-width">
+        <a class= "btn btn-primary " routerLink="/home">Home</a>
+    </div>
+</div>

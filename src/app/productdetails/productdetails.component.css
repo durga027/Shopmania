@@ -1,0 +1,13 @@
+.listText{
+    font-family: "Lucida Console", "Courier New", monospace;
+    /* padding: 10px 10px, 10px 10px; */
+    width: 50%;
+    align-items: center;
+    color: black;
+  }
+  .btnPadding{
+    margin-right: 50px; 
+  }
+  .topMargin{
+    margin-top: 50px;
+  }

@@ -1,0 +1,10 @@
+.home{
+  height:40em; background-size:cover; width:auto;
+  background-image:  URL(assets/home7.jpg);
+  background-position:50% 50%;
+  
+  
+}
+.navText{
+  font-family: "Lucida Console", "Courier New", monospace;
+}
